@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\M1073173\SeleniumStuff\BDD_Framewrok\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Comprehensive.runnerClass.TestrunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;To check the functionality of buying the product&quot;, &quot;Optional[Search the product and Buy the product...)">runScenario("To check the functionality of buying the product", "Optional[Search the product and Buy the product...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Comprehensive.runnerClass.TestrunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Validate in home page Latest Product&quot;, &quot;Optional[Automate latest section]&quot;)">runScenario("Validate in home page Latest Product", "Optional[Automate latest section]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Comprehensive.runnerClass.TestrunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Validate in home page gift card&quot;, &quot;Optional[Buying Gift Card.]&quot;)">runScenario("Validate in home page gift card", "Optional[Buying Gift Card.]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Comprehensive.runnerClass.TestrunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Header link&quot;, &quot;Optional[Automate Header link]&quot;)">runScenario("Validate Header link", "Optional[Automate Header link]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Comprehensive.runnerClass.TestrunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Validate in home page Home decor&quot;, &quot;Optional[Automate Home decor in home page]&quot;)">runScenario("Validate in home page Home decor", "Optional[Automate Home decor in home page]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Comprehensive.runnerClass.TestrunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;To check the functionality of Logo on website after navigating to some product and clicking on logo...)">runScenario("To check the functionality of Logo on website after navigating to some product and clicking on logo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Comprehensive.runnerClass.TestrunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Login with valid data.&quot;, &quot;Optional[Bigsmall Automation]&quot;)">runScenario("Login with valid data.", "Optional[Bigsmall Automation]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Comprehensive.runnerClass.TestrunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Header hover link&quot;, &quot;Optional[Automate Header hover]&quot;)">runScenario("Validate Header hover link", "Optional[Automate Header hover]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Comprehensive.runnerClass.TestrunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;To check the functionality and put inquiry for Corporate gifts&quot;, &quot;Optional[Enquiry for Corporate gi...)">runScenario("To check the functionality and put inquiry for Corporate gifts", "Optional[Enquiry for Corporate gi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Comprehensive.runnerClass.TestrunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Validate in home page whats new section&quot;, &quot;Optional[Automate Whats new]&quot;)">runScenario("Validate in home page whats new section", "Optional[Automate Whats new]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Comprehensive.runnerClass.TestrunnerClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To check the functionality of buying the product&quot;, &quot;Optional[Search the product and Buy the product...)">
+                  </a> <!-- runScenario("To check the functionality of buying the product", "Optional[Search the product and Buy the product...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To check the functionality of buying the product", "Optional[Search the product and Buy the product.]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate in home page Latest Product&quot;, &quot;Optional[Automate latest section]&quot;)">
+                  </a> <!-- runScenario("Validate in home page Latest Product", "Optional[Automate latest section]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate in home page Latest Product", "Optional[Automate latest section]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate in home page gift card&quot;, &quot;Optional[Buying Gift Card.]&quot;)">
+                  </a> <!-- runScenario("Validate in home page gift card", "Optional[Buying Gift Card.]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate in home page gift card", "Optional[Buying Gift Card.]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Header link&quot;, &quot;Optional[Automate Header link]&quot;)">
+                  </a> <!-- runScenario("Validate Header link", "Optional[Automate Header link]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Header link", "Optional[Automate Header link]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate in home page Home decor&quot;, &quot;Optional[Automate Home decor in home page]&quot;)">
+                  </a> <!-- runScenario("Validate in home page Home decor", "Optional[Automate Home decor in home page]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate in home page Home decor", "Optional[Automate Home decor in home page]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To check the functionality of Logo on website after navigating to some product and clicking on logo...)">
+                  </a> <!-- runScenario("To check the functionality of Logo on website after navigating to some product and clicking on logo...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To check the functionality of Logo on website after navigating to some product and clicking on logo will return back to Homepage.", "Optional[Check the Functionality of Logo.]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with valid data.&quot;, &quot;Optional[Bigsmall Automation]&quot;)">
+                  </a> <!-- runScenario("Login with valid data.", "Optional[Bigsmall Automation]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with valid data.", "Optional[Bigsmall Automation]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Header hover link&quot;, &quot;Optional[Automate Header hover]&quot;)">
+                  </a> <!-- runScenario("Validate Header hover link", "Optional[Automate Header hover]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Header hover link", "Optional[Automate Header hover]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To check the functionality and put inquiry for Corporate gifts&quot;, &quot;Optional[Enquiry for Corporate gi...)">
+                  </a> <!-- runScenario("To check the functionality and put inquiry for Corporate gifts", "Optional[Enquiry for Corporate gi...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To check the functionality and put inquiry for Corporate gifts", "Optional[Enquiry for Corporate gifts.]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate in home page whats new section&quot;, &quot;Optional[Automate Whats new]&quot;)">
+                  </a> <!-- runScenario("Validate in home page whats new section", "Optional[Automate Whats new]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate in home page whats new section", "Optional[Automate Whats new]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\M1073173\SeleniumStuff\BDD_Framewrok\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Comprehensive.runnerClass.TestrunnerClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'com.Comprehensive.runnerClass.TestrunnerClass')
+data.setCell(0, 3, 42654);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.Comprehensive.runnerClass.TestrunnerClass')
+data.setCell(1, 3, 34421);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.Comprehensive.runnerClass.TestrunnerClass')
+data.setCell(2, 3, 30875);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.Comprehensive.runnerClass.TestrunnerClass')
+data.setCell(3, 3, 27038);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.Comprehensive.runnerClass.TestrunnerClass')
+data.setCell(4, 3, 25808);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.Comprehensive.runnerClass.TestrunnerClass')
+data.setCell(5, 3, 24093);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'com.Comprehensive.runnerClass.TestrunnerClass')
+data.setCell(6, 3, 24003);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'com.Comprehensive.runnerClass.TestrunnerClass')
+data.setCell(7, 3, 21784);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'com.Comprehensive.runnerClass.TestrunnerClass')
+data.setCell(8, 3, 17806);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'com.Comprehensive.runnerClass.TestrunnerClass')
+data.setCell(9, 3, 17189);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Comprehensive.runnerClass.TestrunnerClass</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@1941b9c)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login with valid data.", "Optional[Bigsmall Automation]")</span>
+                <span class="method-start">1254 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To check the functionality of Logo on website after navigating to some product and clicking on logo...)</span>
+                <span class="method-start">35685 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To check the functionality of buying the product", "Optional[Search the product and Buy the product...)</span>
+                <span class="method-start">66566 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate in home page gift card", "Optional[Buying Gift Card.]")</span>
+                <span class="method-start">109224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To check the functionality and put inquiry for Corporate gifts", "Optional[Enquiry for Corporate gi...)</span>
+                <span class="method-start">126419 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Header hover link", "Optional[Automate Header hover]")</span>
+                <span class="method-start">152234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Header link", "Optional[Automate Header link]")</span>
+                <span class="method-start">176245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate in home page Home decor", "Optional[Automate Home decor in home page]")</span>
+                <span class="method-start">203288 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate in home page Latest Product", "Optional[Automate latest section]")</span>
+                <span class="method-start">225079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate in home page whats new section", "Optional[Automate Whats new]")</span>
+                <span class="method-start">242889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">266992 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
