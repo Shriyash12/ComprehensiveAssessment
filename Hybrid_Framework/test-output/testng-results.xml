@@ -2,18 +2,18 @@
 <testng-results ignored="20" total="31" passed="10" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-22T13:58:45 IST" name="Suite" finished-at="2021-11-22T14:01:35 IST" duration-ms="170034">
+  <suite started-at="2021-11-23T13:59:59 IST" name="Suite" finished-at="2021-11-23T14:02:59 IST" duration-ms="180496">
     <groups>
     </groups>
-    <test started-at="2021-11-22T13:58:45 IST" name="Test" finished-at="2021-11-22T14:01:35 IST" duration-ms="170034">
+    <test started-at="2021-11-23T13:59:59 IST" name="Test" finished-at="2021-11-23T14:02:59 IST" duration-ms="180496">
       <class name="com.bigsmall.testCases.ClickLogoTC">
-        <test-method signature="HomePage()[pri:0, instance:com.bigsmall.testCases.ClickLogoTC@5edd48ad]" started-at="2021-11-22T14:00:35 IST" name="HomePage" finished-at="2021-11-22T14:00:50 IST" duration-ms="15793" status="PASS">
+        <test-method signature="HomePage()[pri:0, instance:com.bigsmall.testCases.ClickLogoTC@59a9fb53]" started-at="2021-11-23T14:01:56 IST" name="HomePage" finished-at="2021-11-23T14:02:16 IST" duration-ms="19835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage -->
       </class> <!-- com.bigsmall.testCases.ClickLogoTC -->
       <class name="com.bigsmall.testCases.CheckoutAutomation">
-        <test-method signature="checkoutAutomation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)[pri:0, instance:com.bigsmall.testCases.CheckoutAutomation@3e7f2eb4]" started-at="2021-11-22T13:59:17 IST" name="checkoutAutomation" data-provider="getDeliveryDetails" finished-at="2021-11-22T13:59:18 IST" duration-ms="269" status="FAIL">
+        <test-method signature="checkoutAutomation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)[pri:0, instance:com.bigsmall.testCases.CheckoutAutomation@d8f55f9d]" started-at="2021-11-23T14:00:30 IST" name="checkoutAutomation" data-provider="getDeliveryDetails" finished-at="2021-11-23T14:00:30 IST" duration-ms="375" status="FAIL">
           <exception class="org.testng.internal.reflect.MethodMatcherException">
             <message>
               <![CDATA[
@@ -59,14 +59,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- checkoutAutomation -->
       </class> <!-- com.bigsmall.testCases.CheckoutAutomation -->
-      <class name="com.bigsmall.testCases.GiftCardAutomation">
-        <test-method signature="HomePage()[pri:0, instance:com.bigsmall.testCases.GiftCardAutomation@9b3ed891]" started-at="2021-11-22T14:00:51 IST" name="HomePage" finished-at="2021-11-22T14:00:59 IST" duration-ms="8370" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomePage -->
-      </class> <!-- com.bigsmall.testCases.GiftCardAutomation -->
       <class name="com.bigsmall.testCases.CorporateGiftsValidation">
-        <test-method signature="corporateGifts(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.bigsmall.testCases.CorporateGiftsValidation@6aea8e1d]" started-at="2021-11-22T14:01:00 IST" name="corporateGifts" data-provider="getData" finished-at="2021-11-22T14:01:10 IST" duration-ms="9796" status="PASS">
+        <test-method signature="corporateGifts(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.bigsmall.testCases.CorporateGiftsValidation@c88af0d2]" started-at="2021-11-23T14:02:25 IST" name="corporateGifts" data-provider="getData" finished-at="2021-11-23T14:02:35 IST" duration-ms="10003" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,20 +87,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- corporateGifts -->
       </class> <!-- com.bigsmall.testCases.CorporateGiftsValidation -->
+      <class name="com.bigsmall.testCases.GiftCardAutomation">
+        <test-method signature="HomePage()[pri:0, instance:com.bigsmall.testCases.GiftCardAutomation@dfe44ec3]" started-at="2021-11-23T14:02:17 IST" name="HomePage" finished-at="2021-11-23T14:02:25 IST" duration-ms="8389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+      </class> <!-- com.bigsmall.testCases.GiftCardAutomation -->
       <class name="com.bigsmall.testCases.QtyIncrement">
-        <test-method signature="qtyIncrement()[pri:0, instance:com.bigsmall.testCases.QtyIncrement@594a853f]" started-at="2021-11-22T13:59:34 IST" name="qtyIncrement" finished-at="2021-11-22T13:59:50 IST" duration-ms="15520" status="PASS">
+        <test-method signature="qtyIncrement()[pri:0, instance:com.bigsmall.testCases.QtyIncrement@bef08c46]" started-at="2021-11-23T14:00:47 IST" name="qtyIncrement" finished-at="2021-11-23T14:01:05 IST" duration-ms="17242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- qtyIncrement -->
       </class> <!-- com.bigsmall.testCases.QtyIncrement -->
       <class name="com.bigsmall.testCases.HoverHeader">
-        <test-method signature="hoverHeader()[pri:0, instance:com.bigsmall.testCases.HoverHeader@71ef484d]" started-at="2021-11-22T13:59:50 IST" name="hoverHeader" finished-at="2021-11-22T14:00:03 IST" duration-ms="13068" status="PASS">
+        <test-method signature="hoverHeader()[pri:0, instance:com.bigsmall.testCases.HoverHeader@5b556f4c]" started-at="2021-11-23T14:01:05 IST" name="hoverHeader" finished-at="2021-11-23T14:01:20 IST" duration-ms="14627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverHeader -->
       </class> <!-- com.bigsmall.testCases.HoverHeader -->
       <class name="com.bigsmall.testCases.CODAvailablityTC">
-        <test-method signature="pinCodeValidation(java.lang.String)[pri:0, instance:com.bigsmall.testCases.CODAvailablityTC@34e372d2]" started-at="2021-11-22T14:00:04 IST" name="pinCodeValidation" data-provider="Pin" finished-at="2021-11-22T14:00:21 IST" duration-ms="16167" status="PASS">
+        <test-method signature="pinCodeValidation(java.lang.String)[pri:0, instance:com.bigsmall.testCases.CODAvailablityTC@e8761902]" started-at="2021-11-23T14:01:21 IST" name="pinCodeValidation" data-provider="Pin" finished-at="2021-11-23T14:01:38 IST" duration-ms="17256" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,7 +117,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pinCodeValidation -->
-        <test-method signature="pinCodeValidation(java.lang.String)[pri:0, instance:com.bigsmall.testCases.CODAvailablityTC@34e372d2]" started-at="2021-11-22T14:00:21 IST" name="pinCodeValidation" data-provider="Pin" finished-at="2021-11-22T14:00:34 IST" duration-ms="12823" status="PASS">
+        <test-method signature="pinCodeValidation(java.lang.String)[pri:0, instance:com.bigsmall.testCases.CODAvailablityTC@e8761902]" started-at="2021-11-23T14:01:39 IST" name="pinCodeValidation" data-provider="Pin" finished-at="2021-11-23T14:01:55 IST" duration-ms="16269" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,7 +130,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- pinCodeValidation -->
       </class> <!-- com.bigsmall.testCases.CODAvailablityTC -->
       <class name="com.bigsmall.testCases.SigninTC">
-        <test-method signature="signIn(java.lang.String,java.lang.String)[pri:0, instance:com.bigsmall.testCases.SigninTC@6fb9aca]" started-at="2021-11-22T13:59:19 IST" name="signIn" data-provider="getData" finished-at="2021-11-22T13:59:34 IST" duration-ms="14508" status="PASS">
+        <test-method signature="signIn(java.lang.String,java.lang.String)[pri:0, instance:com.bigsmall.testCases.SigninTC@a328d57b]" started-at="2021-11-23T14:00:32 IST" name="signIn" data-provider="getData" finished-at="2021-11-23T14:00:47 IST" duration-ms="15015" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -146,17 +146,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.bigsmall.testCases.SigninTC@6fb9aca]" started-at="2021-11-22T13:59:34 IST" name="teardown" finished-at="2021-11-22T13:59:34 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.bigsmall.testCases.SigninTC@a328d57b]" started-at="2021-11-23T14:00:47 IST" name="teardown" finished-at="2021-11-23T14:00:47 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.bigsmall.testCases.SigninTC -->
       <class name="com.bigsmall.testCases.SearchProductTC">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.bigsmall.testCases.SearchProductTC@1d17b8d4]" started-at="2021-11-22T13:58:45 IST" name="initializeBrowser" finished-at="2021-11-22T13:58:51 IST" duration-ms="6376" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.bigsmall.testCases.SearchProductTC@ec083f58]" started-at="2021-11-23T13:59:59 IST" name="initializeBrowser" finished-at="2021-11-23T14:00:05 IST" duration-ms="5830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.bigsmall.testCases.SearchProductTC@1d17b8d4]" started-at="2021-11-22T13:58:54 IST" name="searchProduct" data-provider="getSearchData" finished-at="2021-11-22T13:59:15 IST" duration-ms="21518" status="PASS">
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.bigsmall.testCases.SearchProductTC@ec083f58]" started-at="2021-11-23T14:00:07 IST" name="searchProduct" data-provider="getSearchData" finished-at="2021-11-23T14:00:28 IST" duration-ms="20985" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,13 +167,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bigsmall.testCases.SearchProductTC@1d17b8d4]" started-at="2021-11-22T14:01:34 IST" name="tearDown" finished-at="2021-11-22T14:01:35 IST" duration-ms="1027" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bigsmall.testCases.SearchProductTC@ec083f58]" started-at="2021-11-23T14:02:58 IST" name="tearDown" finished-at="2021-11-23T14:02:59 IST" duration-ms="1144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.bigsmall.testCases.SearchProductTC -->
       <class name="com.bigsmall.testCases.AddToWishlist">
-        <test-method signature="addToWishlist()[pri:0, instance:com.bigsmall.testCases.AddToWishlist@3ed28cad]" started-at="2021-11-22T14:01:11 IST" name="addToWishlist" finished-at="2021-11-22T14:01:34 IST" duration-ms="23012" status="PASS">
+        <test-method signature="addToWishlist()[pri:0, instance:com.bigsmall.testCases.AddToWishlist@9c2c90df]" started-at="2021-11-23T14:02:36 IST" name="addToWishlist" finished-at="2021-11-23T14:02:58 IST" duration-ms="21937" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToWishlist -->

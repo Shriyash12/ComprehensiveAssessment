@@ -22,7 +22,7 @@ public class BuyproductstepDefinition extends Baseclass{
 
 	@Before("@Buyproduct")
 	public void getCl() {
-		test = report.startTest("Logo page");
+		test = report.startTest("Buy Product");
 		log = Logger.getLogger(Baseclass.class.getName());
 	}
 

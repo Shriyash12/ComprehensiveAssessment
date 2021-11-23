@@ -35,7 +35,7 @@ public class Listeners extends BaseClass implements ITestListener {
 			e1.printStackTrace();
 		}
 
-		test.fail(result.getTestName() + " Test Failed...!",
+		test.fail(result.getName() + " Test Failed...!",
 				MediaEntityBuilder.createScreenCaptureFromPath(pathSS).build());
 		
 	}
@@ -49,8 +49,7 @@ public class Listeners extends BaseClass implements ITestListener {
 			e1.printStackTrace();
 		}
 
-		test.pass(result.getTestName() + " Test Passes...!",
-				MediaEntityBuilder.createScreenCaptureFromPath(pathSS).build());
+		
 		
 	}
 

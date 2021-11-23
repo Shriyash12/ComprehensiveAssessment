@@ -1,0 +1,54 @@
+2021-11-23 14:05:24,600  INFO [main] Baseclass:32 - driver initilaize
+2021-11-23 14:05:28,004  INFO [main] Baseclass:39 - Click on sign in
+2021-11-23 14:05:29,977  INFO [main] Baseclass:48 - ExcelSheet opened
+2021-11-23 14:05:30,001  INFO [main] Baseclass:56 - Entering username
+2021-11-23 14:05:37,171  INFO [main] Baseclass:67 - Login succssfully
+2021-11-23 14:05:49,101  INFO [main] Baseclass:32 - driver initilaize
+2021-11-23 14:05:56,920  INFO [main] Baseclass:30 - Click on All of it
+2021-11-23 14:06:00,882  INFO [main] Baseclass:37 - Select product
+2021-11-23 14:06:05,653  INFO [main] Baseclass:45 - Back to Home Page
+2021-11-23 14:06:16,878  INFO [main] Baseclass:32 - driver initilaize
+2021-11-23 14:06:23,837  INFO [main] Baseclass:34 - User enter data in search bar
+2021-11-23 14:06:27,250  INFO [main] Baseclass:41 - Click on first product
+2021-11-23 14:06:27,603  INFO [main] Baseclass:49 - Click to cart
+2021-11-23 14:06:34,925  INFO [main] Baseclass:57 - Click to checkout
+2021-11-23 14:06:35,422  INFO [main] Baseclass:64 - Click on whatsapp cut
+2021-11-23 14:06:43,626  INFO [main] Baseclass:72 - User enter mail
+2021-11-23 14:06:43,829  INFO [main] Baseclass:75 - User enter name
+2021-11-23 14:06:44,027  INFO [main] Baseclass:78 - User enter lname
+2021-11-23 14:06:44,236  INFO [main] Baseclass:81 - User enter add
+2021-11-23 14:06:44,473  INFO [main] Baseclass:84 - User enter landmark
+2021-11-23 14:06:46,009  INFO [main] Baseclass:90 - User enter pin
+2021-11-23 14:06:46,246  INFO [main] Baseclass:93 - User enter phone
+2021-11-23 14:06:56,939  INFO [main] Baseclass:101 - User hit submit
+2021-11-23 14:07:13,491  INFO [main] Baseclass:32 - driver initilaize
+2021-11-23 14:07:17,410  INFO [main] Baseclass:29 - Click gift card
+2021-11-23 14:07:17,864  INFO [main] Baseclass:36 - Add money
+2021-11-23 14:07:18,517  INFO [main] Baseclass:44 - Click add to bag
+2021-11-23 14:07:29,480  INFO [main] Baseclass:32 - driver initilaize
+2021-11-23 14:07:36,824  INFO [main] Baseclass:30 - Select Corporate Gifts
+2021-11-23 14:07:37,022  INFO [main] Baseclass:37 - User enter name
+2021-11-23 14:07:37,169  INFO [main] Baseclass:40 - User enter email
+2021-11-23 14:07:37,348  INFO [main] Baseclass:43 - User enter phone
+2021-11-23 14:07:37,604  INFO [main] Baseclass:46 - User enter enquiry
+2021-11-23 14:07:41,746  INFO [main] Baseclass:55 - User hit submit
+2021-11-23 14:07:52,952  INFO [main] Baseclass:32 - driver initilaize
+2021-11-23 14:07:53,337  INFO [main] Baseclass:33 - Move mouse to hover dropdown
+2021-11-23 14:07:57,325  INFO [main] Baseclass:40 - Click on hover third option
+2021-11-23 14:08:01,624  INFO [main] Baseclass:47 - Click first product
+2021-11-23 14:08:02,756  INFO [main] Baseclass:55 - Click add to bag
+2021-11-23 14:08:14,261  INFO [main] Baseclass:32 - driver initilaize
+2021-11-23 14:08:18,464  INFO [main] Baseclass:29 - Click on personalize gift
+2021-11-23 14:08:27,009  INFO [main] Baseclass:36 - Click on first product
+2021-11-23 14:08:28,402  INFO [main] Baseclass:44 - Verify the text
+2021-11-23 14:08:38,950  INFO [main] Baseclass:32 - driver initilaize
+2021-11-23 14:08:43,291  INFO [main] Baseclass:29 - Click on Home Decor
+2021-11-23 14:08:48,012  INFO [main] Baseclass:36 - Click on product
+2021-11-23 14:08:49,057  INFO [main] Baseclass:44 - Click on add to bag
+2021-11-23 14:08:59,114  INFO [main] Baseclass:32 - driver initilaize
+2021-11-23 14:09:03,485  INFO [main] Baseclass:30 - Select Latest of first product
+2021-11-23 14:09:04,723  INFO [main] Baseclass:38 - Click on add to bag
+2021-11-23 14:09:15,391  INFO [main] Baseclass:32 - driver initilaize
+2021-11-23 14:09:19,264  INFO [main] Baseclass:29 - Click on whats new section
+2021-11-23 14:09:23,573  INFO [main] Baseclass:36 - Click on first product
+2021-11-23 14:09:24,944  INFO [main] Baseclass:50 - Click on add to bag

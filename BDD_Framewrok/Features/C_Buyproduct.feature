@@ -14,5 +14,5 @@ Then browser close
 
 
 Examples:
-|product     |mail                     |fname   | lname   |add    |landmark | state        |pin   |phone     |
-|harry potter|demo.shriyash12@gmail.com|Shriyas |Nilawar  | Nagpur |Nagpur  | Maharahstra |445001|9087654321|
+|product     |mail                     |fname   |lname    |add     |landmark| state      |city   |pin   |phone     |
+|harry potter|demo.shriyash12@gmail.com|Shriyas |Nilawar  | Nagpur |Nagpur  | Maharahstra|Nagpur |445001|9087654321|
