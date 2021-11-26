@@ -1,6 +1,10 @@
 package com.Comprehensive.stepDefinitions;
 
+import java.util.Iterator;
+import java.util.Set;
+
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Keys;
 import org.testng.Assert;
 
 import com.Comprehensive.pageObjects.PageObjectheaderLink;
@@ -24,9 +28,17 @@ public class HeaderlinkstepDefinition extends Baseclass{
 	
     @Then("^User land to home page and click the personalize gifts$")
     public void user_land_to_home_page_and_click_the_personalize_gifts() throws Throwable {
-        hl.getHeaderlink().click();
+    	//This the Windows Functionality
+        hl.getHeaderlink().sendKeys(Keys.CONTROL,Keys.ENTER);
         test.log(LogStatus.PASS, "Click on personalize gift");
         log.info("Click on personalize gift");
+        
+        //Iterator Window
+        Set<String> ab=driver.getWindowHandles();
+		Iterator<String> bc=ab.iterator();
+		log.info("Handling Multiple Windows");
+		String parentid=bc.next();
+        driver.switchTo().window(parentid);
     }
 
     @Then("^User select the first product$")

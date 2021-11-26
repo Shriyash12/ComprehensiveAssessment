@@ -75,7 +75,7 @@ public class LoginstepDefinition extends Baseclass {
 
 	@Then("^browser close$")
 	public void browser_close() throws Throwable {
-		driver.close();
+		driver.quit();
 	}
 
 }

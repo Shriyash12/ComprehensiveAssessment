@@ -1,7 +1,12 @@
 package com.bigsmall.testCases;
 
+import java.util.Iterator;
+import java.util.Set;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Keys;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import com.bigsmall.pageObject.ClickLogoPOM;
@@ -12,8 +17,6 @@ public class ClickLogoTC extends BaseClass {
 	public static Logger log = LogManager.getLogger(ClickLogoTC.class.getName());
 	GetProperties prop = new GetProperties();
 
-	
-
 	@Test
 	public void HomePage() {
 		driver.get(prop.getURL());
@@ -22,7 +25,13 @@ public class ClickLogoTC extends BaseClass {
 		ClickLogoPOM pom = new ClickLogoPOM(driver);
 		log.info("Click on 'All of it' from the navigation bar");
 		test.info("Click on 'All of it' from the navigation bar");
-		pom.getAllofIt().click();
+		pom.getAllofIt().sendKeys(Keys.CONTROL, Keys.ENTER);
+
+		Set<String> ab = driver.getWindowHandles();
+		Iterator<String> bc = ab.iterator();
+		log.info("Handling Multiple Windows");
+		String parentid = bc.next();
+		driver.switchTo().window(parentid);
 		log.info("Select the Product from Search results");
 		test.info("Select the Product from Search results");
 		pom.getFirstProduct().click();
@@ -44,5 +53,8 @@ public class ClickLogoTC extends BaseClass {
 		test.info("User navigated back to Homepage from Product Details page");
 	}
 
-	
+	@AfterTest
+	public void teardown() {
+		driver.quit();
+	}
 }

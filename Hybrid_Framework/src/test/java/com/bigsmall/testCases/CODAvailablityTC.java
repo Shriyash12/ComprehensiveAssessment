@@ -18,8 +18,6 @@ public class CODAvailablityTC extends BaseClass {
 	public static Logger log = LogManager.getLogger(CODAvailablityTC.class.getName());
 	GetProperties prop = new GetProperties();
 
-	
-
 	@Test(dataProvider = "Pin")
 	public void pinCodeValidation(String pincode) throws InterruptedException {
 		driver.get(prop.getURL());
@@ -50,8 +48,8 @@ public class CODAvailablityTC extends BaseClass {
 			log.info("COD Available for inputed pin code");
 			test.info("COD Available for inputed pin code");
 		} catch (AssertionError e) {
-			log.info("COD Unavailable for inputed pin code");
-			test.info("COD Unavailable for inputed pin code");
+			log.error("COD Unavailable for inputed pin code");
+			test.fail("COD Unavailable for inputed pin code");
 		}
 
 	}
@@ -64,5 +62,5 @@ public class CODAvailablityTC extends BaseClass {
 		objData[1][0] = exe.getData(28, 1);
 		return objData;
 	}
-	
+
 }
